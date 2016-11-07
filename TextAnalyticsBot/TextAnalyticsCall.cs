@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HHSClientBot
+namespace TextAnalyticsClientBot
 {
 
     // Classes to store the input for the sentiment API call

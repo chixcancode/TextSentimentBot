@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 
 
-namespace HHSClientBot
+namespace TextAnalyticsClientBot
 {
     [BotAuthentication]
     public class MessagesController : ApiController
@@ -26,7 +26,7 @@ namespace HHSClientBot
 
             if (activity.Type == ActivityTypes.Message)
             {
-                const string apiKey = "164d22cafc4d41cebe8f4f65754cba75";
+                const string apiKey = "ENTER YOUR KEY HERE";
                 const string queryUri = "https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment";
                 const string phraseUri = "https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/keyphrases";
 
